@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&family=VT323&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/logo.png">
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/chung.css" />
+    <title>OceClub</title>
+  </head>
+  <body>
+    <!-- La roi theo mua -->
+    <div class="season"></div>
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="e9828748-1ae4-4819-9d54-feff09f8208a";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    <!-- overlay -->
+    <section id="overlay"></section>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <!-- logo -->
+          <div class="navbar__logo">
+            <img src="./img/logo.png" alt="website logo" />
+          </div>
+          <!-- links -->
+          <ul class="navbar__links">
+            <li class="navbar__link">
+              <a href="index.html">
+                <i class="fas fa-home" style="font-size: 15px;"></i> Trang Chủ
+              </a>
+            </li>
+            <li class="navbar__link dropdown">
+              <a href="thanhvien.html">
+                <i class="fas fa-users" style="font-size: 15px;"></i> Thành Viên
+                <i class="fas fa-caret-down"></i>
+              </a>
+              <ul class="dropdown-content">
+                <li><a href="thanhvien.html#dautrang">Đầu Trang</a></li>
+                <li><a href="thanhvien.html#giuatrang">Tất Cả Thành Viên</a></li>
+                <li><a href="thanhvien.html#footer">Chân Trang</a></li>
+              </ul>
+            </li>
+            
+            <li class="navbar__link dropdown">
+              <a href="tinmoi.html">
+                <i class="fas fa-newspaper" style="font-size: 15px;"></i> Tin Mới
+                <i class="fas fa-caret-down"></i>
+              </a>
+              <ul class="dropdown-content">
+                <li><a href="tinmoi.html#dautrang">Đầu Trang</a></li>
+                <li><a href="tinmoi.html#giuatrang">Tin Mới Nhất</a></li>
+                <li><a href="tinmoi.html#footer">Cuối Trang</a></li>
+              </ul>
+            </li>
+            
+            <li class="navbar__link dropdown">
+              <a href="caulacbo.html">
+                <i class="fas fa-chess-knight" style="font-size: 15px;"></i> Câu Lạc Bộ
+                <i class="fas fa-caret-down"></i>
+              </a>
+              <ul class="dropdown-content">
+                <li><a href="caulacbo.html#dautrang">Đầu Trang</a></li>
+                <li><a href="caulacbo.html#giuatrang">Câu Lạc Bộ</a></li>
+                <li><a href="caulacbo.html#footer">Cuối Trang</a></li>
+              </ul>
+              </li>
+              <a href="#footer">
+                <button class="navbar__btn">Liên Hệ</button>
+              </a>
+              </ul>
+          <!-- menu button -->
+          <div class="navbar__icons">
+            <div class="navbar__icon"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- banner -->
+    <section id="banner">
+      <div class="container">
+        <!-- img -->
+        <div class="banner__img">
+          <img src="./img/banner-img.png" alt="banner" />
+        </div>
+        <!-- heading -->
+        <div class="banner__heading">
+          <h1>Hello, We're From Oce Club</h1>
+          <p>
+            My team make about content minecraft in many socials,
+          </p>
+          <a href="#"><button class="banner__btn">Tham Gia</button></a>
+          <div class="banner__socials">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-discord"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- things -->
+    <section id="things">
+      <div class="container">
+        <div class="hot-news">
+          <h2><i class="fa fa-fire-alt" style="color: red;"></i> Tin Hot <i class="fa fa-fire-alt" style="color: red;"></i></h2>
+          <div class="news-marquee">
+            <ul>
+              <li><a>> Oce Club được thành lập bởi Toàn Be vào ngày 10/6/2023, bao gồm 7 thành viên KagiMC, Toàn Be, Huàng Đức, Tài Than, EchOpp, Diobede, LQT OCE <</a></li>
+              <li><a>> Giao lưu game team cuối tuần cùng anh em Oce Club <</a></li>
+              <li><a>> Anh em Oce rèn luyện kỹ năng phần mềm để nâng cao chất lượng video content <</a></li>
+              <li><a>> Toàn Be sắp ra mắt content minecraft animation tại kênh của mình <</a></li>              
+              <!-- Thêm nhiều tin hot hơn nếu cần -->
+            </ul>
+          </div>
+        </div>
+        <section id="team-description">
+          <div class="container">
+            <!-- Team Description Box -->
+            <div class="team-description-box">
+              <!-- Logo and Title -->
+              <div class="team-description-header">
+                <h2>Trưởng Nhóm: Toàn Be</h2>
+              </div>
+              <!-- Description Content -->
+              <p>
+                Oce Club được thành lập bởi <strong>Toàn Be</strong> vào ngày <strong>10/6/2023</strong>, bao gồm 7 thành viên:
+                <strong>KagiMC</strong>, <strong>DucBunZiu</strong>, <strong>Toàn Be</strong>, <strong>Tài Than</strong>, <strong>EchOpp</strong>, <strong>Diobede</strong>, <strong>LQT OCE</strong>. 
+                Club quay những video về đủ mọi tựa game giải trí, hoạt động của cả nhóm chủ yếu là về <strong>Minecraft</strong> 
+                và <strong>Roblox</strong> hoặc cũng có thể là những tựa game trong nước và ngoài nước. Ngoài ra, các thành viên 
+                đều có các kênh mạng xã hội riêng và hoạt động làm những content giải trí, lành mạnh và vui vẻ!
+              </p>
+              <!-- Call to Action -->
+              <div class="team-description-footer">
+                <p>Tham gia các câu lạc bộ của chúng tôi:</p>
+                <div class="footer-links">
+                  <a href="#" target="_blank" class="footer-link">Fanpage</a>
+                  <a href="#" target="_blank" class="footer-link">Discord</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- heading -->
+        <h2>About Member Of OceClub</h2>
+        <!-- item 1 -->
+        <div class="things__item">
+          <!-- img -->
+          <img id="toanbe" src="./img/logo2.png" alt="toanbe" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Toàn Be</h3>
+            <p>
+              Hi, I'm Toàn. I dream of traveling the world but need to focus on my family first. I started university early at funix, struggled with distractions, and now aim to work hard to achieve my dream. - Written at 3:20 AM on 08/08/2024
+            </p>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="things__item">
+          <!-- img -->
+          <img id="ducoce" src="./img/ducoce.png" alt="ducoce" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Huàng Đức</h3>
+            <p>
+              I'm a 2009-born from Quang Ninh. I love playing table tennis, diving into Valorant, and jamming out to music. I'm easy-going and always up for a good time!
+            </p>
+          </div>
+        </div>
+        <!-- item 3 -->
+        <div class="things__item">
+          <!-- img -->
+          <img id="kagimc" src="./img/kagi.jfif" alt="kagimc" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>KagiMC</h3>
+            <p>
+              Hi, I'm Kagi, a Video Editor with 2 years of experience. I transform clips into standout videos, perfecting audio and effects to make every project shine. My goal? To create videos you won't want to skip. Ready to make your content shine? Let's get started!
+            </p>
+          </div>
+        </div>
+      <div class="things__item">
+        <!-- img -->
+        <img id="taithan" src="./img/taithan.jpg" alt="taithan" />
+        <!-- text -->
+        <div class="things__item--heading">
+          <h3>Tài Than</h3>
+          <p>
+            tôi là 1 thk béo và chưa có gì đển nói
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="works__btn">
+      <a href="thanhvien.html"><button>Tất Cả Thành Viên</button></a>
+    </div>
+    </section>
+    <!-- works -->
+    <section id="works">
+      <div class="container">
+        <!-- heading -->
+        <h2>OceClub's Content</h2>
+        <!-- img -->
+        <div class="works__img">
+          <div class="works__img--single">
+            <img src="./img/mcr.webp" alt="mcr" />
+          </div>
+          <div class="works__img--single">
+            <img src="./img/valorant.webp" alt="vl" />
+          </div>
+          <div class="works__img--single">
+            <img src="./img/roblox.webp" alt="roblox" />
+          </div>
+          <div class="works__img--single">
+            <img src="./img/mylife.png" alt="mylife" />
+          </div>
+        </div>
+        <!-- btn -->
+        <div class="works__btn">
+          <a href="#"><button>Xem Ngay</button></a>
+        </div>
+      </div>
+    </section>
+    <!-- best videos -->
+<section id="best-videos">
+  <div class="container">
+    <!-- heading -->
+    <h2>Một số video hay nhất của team</h2>
+    <!-- video grid -->
+    <div class="video-grid1">
+      <!-- video item 1 -->
+      <div class="video-item1">
+        <iframe width="320" height="180" src="https://www.youtube.com/embed/example1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p># 1: Video về các khoảnh khắc thú vị của team trong các buổi stream.</p>
+      </div>
+      <!-- video item 2 -->
+      <div class="video-item1">
+        <iframe width="320" height="180" src="https://www.youtube.com/embed/example2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p># 2: Một video hướng dẫn về cách chơi và chiến thuật trong Minecraft.</p>
+      </div>
+      <!-- video item 3 -->
+      <div class="video-item1">
+        <iframe width="320" height="180" src="https://www.youtube.com/embed/example3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p># 3: Video highlight những pha hành động kịch tính của team trong game.</p>
+      </div>
+      <!-- video item 4 -->
+      <div class="video-item1">
+        <iframe width="320" height="180" src="https://www.youtube.com/embed/example4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p># 4: Video về những chiến lược và mẹo chơi game hiệu quả.</p>
+      </div>
+      <!-- Thêm nhiều video khác nếu cần -->
+    </div>
+  </div>
+</section>
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="container">
+        <!-- dec -->
+        <div class="footer__dec">
+          <img src="./img/things-dec-l.png" alt="hello" />
+        </div>
+        <!-- img -->
+        <div class="footer__img">
+          <img src="./img/footer-img.png" alt="footerimg" />
+        </div>
+        <!-- heading -->
+        <div class="footer__heading">
+          <h1>Bạn muốn liên hệ công việc với OceClub?</h1>
+          <!-- contact -->
+          <div class="footer__contact">
+            <a href="tel:901234567">
+              <i class="fas fa-phone-alt"></i>
+              <p>0965059070</p>
+            </a>
+            <a href="mailto:info@me.com">
+              <i class="fas fa-envelope"></i>
+              <p>admin@oceclub.fun</p>
+            </a>
+          </div>
+          <!-- social links -->
+          <div class="footer__social">
+            <a href="https://facebook.com" target="_blank" class="social-link">
+              <i class="fab fa-facebook-f"></i>
+              <p>Facebook</p>
+            </a>
+            <a href="https://discord.com" target="_blank" class="social-link">
+              <i class="fab fa-discord"></i>
+              <p>Discord</p>
+            </a>
+            <a href="https://tiktok.com" target="_blank" class="social-link">
+              <i class="fab fa-tiktok"></i>
+              <p>TikTok</p>
+            </a>
+            <a href="https://youtube.com" target="_blank" class="social-link">
+              <i class="fab fa-youtube"></i>
+              <p>YouTube</p>
+            </a>
+          </div>
+          <!-- copyright -->
+          <div class="footer__copyright">
+            <p>@2024 Bản quyền thuộc về OceClub, chúc các bạn một ngày tốt lành!</p>
+            <p>By Toàn Be</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
